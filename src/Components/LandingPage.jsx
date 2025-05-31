@@ -155,7 +155,7 @@ const Dashboard = () => {
           ].map((therapy, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl shadow-sm overflow-hidden"
+              className="bg-white rounded-xl shadow-sm overflow-hidden transition duration-200 hover:scale-105 hover:shadow-2xl"
             >
               <img
                 src={therapy.img}
@@ -165,7 +165,11 @@ const Dashboard = () => {
               <div className="p-5">
                 <h3 className="font-semibold text-lg mb-1">{therapy.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{therapy.desc}</p>
-                <button className="text-[#00C28C] border border-[#00C28C] rounded-md px-4 py-1 text-sm font-medium">
+                <button
+                  className="text-[#00C28C] border border-[#00C28C] rounded-md px-4 py-1 text-sm font-medium transition duration-200 hover:bg-[#00C28C] hover:text-white hover:shadow-lg active:scale-95"
+                  type="button"
+                  onClick={() => {}}
+                >
                   Learn More
                 </button>
               </div>
@@ -223,7 +227,11 @@ const Dashboard = () => {
             ))}
           </div>
 
-          <button className="px-6 py-2 border border-green-700 text-green-800 font-medium rounded-full hover:bg-green-50 transition">
+          <button
+            className="px-6 py-2 border border-green-700 text-green-800 font-medium rounded-full hover:bg-green-50 transition duration-200 hover:shadow-lg active:scale-95"
+            type="button"
+            onClick={() => {}}
+          >
             More success stories
           </button>
         </div>
@@ -249,7 +257,7 @@ const Dashboard = () => {
             What Unfiltered Offers You
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <div className="border border-gray-200 rounded-xl p-6">
+            <div className="border border-gray-200 rounded-xl p-6 transition duration-200 hover:scale-105 hover:shadow-2xl">
           <div className="text-[#00C28C] mb-3">
             <i className="fas fa-user-friends text-2xl"></i>
           </div>
@@ -259,11 +267,15 @@ const Dashboard = () => {
           <p className="text-gray-600 text-sm mb-4">
             Find the right therapist based on your needs and preferences.
           </p>
-          <button className="text-[#00C28C] font-medium text-sm">
+          <button
+            className="text-[#00C28C] font-medium text-sm transition duration-200 hover:bg-[#00C28C] hover:text-white hover:shadow-lg active:scale-95"
+            type="button"
+            onClick={() => {}}
+          >
             Match with a therapist →
           </button>
             </div>
-            <div className="border border-gray-200 rounded-xl p-6">
+            <div className="border border-gray-200 rounded-xl p-6 transition duration-200 hover:scale-105 hover:shadow-2xl">
           <div className="text-[#00C28C] mb-3">
             <i className="fas fa-lock text-2xl"></i>
           </div>
@@ -274,11 +286,15 @@ const Dashboard = () => {
             Your privacy is our top priority. Sessions are confidential and
             secure.
           </p>
-          <button className="text-[#00C28C] font-medium text-sm">
+          <button
+            className="text-[#00C28C] font-medium text-sm transition duration-200 hover:bg-[#00C28C] hover:text-white hover:shadow-lg active:scale-95"
+            type="button"
+            onClick={() => {}}
+          >
             Learn about security →
           </button>
             </div>
-            <div className="border border-gray-200 rounded-xl p-6">
+            <div className="border border-gray-200 rounded-xl p-6 transition duration-200 hover:scale-105 hover:shadow-2xl">
           <div className="text-[#00C28C] mb-3">
             <i className="fas fa-comment-dots text-2xl"></i>
           </div>
@@ -288,11 +304,15 @@ const Dashboard = () => {
           <p className="text-gray-600 text-sm mb-4">
             Choose from video, phone, or chat sessions that fit your schedule.
           </p>
-          <button className="text-[#00C28C] font-medium text-sm">
+          <button
+            className="text-[#00C28C] font-medium text-sm transition duration-200 hover:bg-[#00C28C] hover:text-white hover:shadow-lg active:scale-95"
+            type="button"
+            onClick={() => {}}
+          >
             Explore options →
           </button>
             </div>
-            <div className="border border-gray-200 rounded-xl p-6">
+            <div className="border border-gray-200 rounded-xl p-6 transition duration-200 hover:scale-105 hover:shadow-2xl">
           <div className="text-[#00C28C] mb-3">
             <i className="fas fa-users text-2xl"></i>
           </div>
@@ -300,7 +320,11 @@ const Dashboard = () => {
           <p className="text-gray-600 text-sm mb-4">
             Connect with others on similar journeys in our moderated forums.
           </p>
-          <button className="text-[#00C28C] font-medium text-sm">
+          <button
+            className="text-[#00C28C] font-medium text-sm transition duration-200 hover:bg-[#00C28C] hover:text-white hover:shadow-lg active:scale-95"
+            type="button"
+            onClick={() => {}}
+          >
             Join the community →
           </button>
             </div>
@@ -313,7 +337,7 @@ const Dashboard = () => {
             Our Experienced Therapists
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm">
+            <div className="bg-white rounded-xl overflow-hidden shadow-sm transition duration-200 hover:scale-105 hover:shadow-2xl">
           <img
             src={people4}
             alt="Dr. Anya Sharma"
@@ -325,12 +349,16 @@ const Dashboard = () => {
             <p className="text-sm text-gray-600 mb-3">
               Sessions Conducted: 345
             </p>
-            <button className="bg-[#00C28C] text-white px-4 py-2 text-sm rounded-md">
+            <button
+              className="bg-[#00C28C] text-white px-4 py-2 text-sm rounded-md transition duration-200 hover:bg-[#009f75] hover:shadow-lg active:scale-95"
+              type="button"
+              onClick={() => {}}
+            >
               Schedule Session
             </button>
           </div>
             </div>
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm">
+            <div className="bg-white rounded-xl overflow-hidden shadow-sm transition duration-200 hover:scale-105 hover:shadow-2xl">
           <img
             src={people2}
             alt="Dr. Ben Carter"
@@ -342,12 +370,16 @@ const Dashboard = () => {
             <p className="text-sm text-gray-600 mb-3">
               Sessions Conducted: 520
             </p>
-            <button className="bg-[#00C28C] text-white px-4 py-2 text-sm rounded-md">
+            <button
+              className="bg-[#00C28C] text-white px-4 py-2 text-sm rounded-md transition duration-200 hover:bg-[#009f75] hover:shadow-lg active:scale-95"
+              type="button"
+              onClick={() => {}}
+            >
               Schedule Session
             </button>
           </div>
             </div>
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm">
+            <div className="bg-white rounded-xl overflow-hidden shadow-sm transition duration-200 hover:scale-105 hover:shadow-2xl">
           <img
             src={people3}
             alt="Dr. Chloe Davis"
@@ -359,7 +391,11 @@ const Dashboard = () => {
             <p className="text-sm text-gray-600 mb-3">
               Sessions Conducted: 480
             </p>
-            <button className="bg-[#00C28C] text-white px-4 py-2 text-sm rounded-md">
+            <button
+              className="bg-[#00C28C] text-white px-4 py-2 text-sm rounded-md transition duration-200 hover:bg-[#009f75] hover:shadow-lg active:scale-95"
+              type="button"
+              onClick={() => {}}
+            >
               Schedule Session
             </button>
           </div>
@@ -395,7 +431,7 @@ const Dashboard = () => {
           ].map((service, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl overflow-hidden shadow-sm"
+              className="bg-white rounded-xl overflow-hidden shadow-sm transition duration-200 hover:scale-105 hover:shadow-2xl"
             >
               <img
                 src={service.img}
@@ -405,7 +441,11 @@ const Dashboard = () => {
               <div className="p-5">
                 <h3 className="font-semibold text-lg mb-1">{service.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{service.desc}</p>
-                <button className="text-[#00C28C] border border-[#00C28C] rounded-md px-4 py-1 text-sm font-medium">
+                <button
+                  className="text-[#00C28C] border border-[#00C28C] rounded-md px-4 py-1 text-sm font-medium transition duration-200 hover:bg-[#00C28C] hover:text-white hover:shadow-lg active:scale-95"
+                  type="button"
+                  onClick={() => {}}
+                >
                   {service.button}
                 </button>
               </div>

@@ -12,19 +12,19 @@ const Footer = () => {
               placeholder="Enter your email"
               className="py-2 px-4 rounded-l-lg border border-gray-300"
             />
-            <button className="bg-orange-500 text-white px-4 rounded-r-lg">
+            <button className="bg-teal-500 text-white px-4 rounded-r-lg">
               Submit
             </button>
           </div>
           <div className="mt-6">
             <h3 className="font-semibold">Have a question?</h3>
-            <p>Email us anytime: <a href="mailto:care@rockethealth.app" className="text-orange-500">care@rockethealth.app</a></p>
+            <p>Email us anytime: <a href="mailto:care@stayunfiltered.com" className="text-teal-500">care@stayunfiltered.com</a></p>
           </div>
           <div className="flex space-x-4 mt-4">
-            <a href="#" className="hover:text-orange-500">Instagram</a>
-            <a href="#" className="hover:text-orange-500">LinkedIn</a>
-            <a href="#" className="hover:text-orange-500">YouTube</a>
-            <a href="#" className="hover:text-orange-500">Medium</a>
+            <a href="#" className="hover:text-teal-500">Instagram</a>
+            <a href="#" className="hover:text-teal-500">LinkedIn</a>
+            <a href="#" className="hover:text-teal-500">YouTube</a>
+            <a href="#" className="hover:text-teal-500">Medium</a>
           </div>
         </div>
         
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-10">
-        <p>All Rights Reserved | <a href="#terms" className="text-orange-500">Terms and Conditions</a> | <a href="#privacy" className="text-orange-500">Privacy Policy</a></p>
+        <p>All Rights Reserved | <a href="#terms" className="text-teal-500">Terms and Conditions</a> | <a href="#privacy" className="text-teal-500">Privacy Policy</a></p>
       </div>
     </footer>
   )

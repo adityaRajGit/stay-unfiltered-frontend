@@ -1,3 +1,4 @@
 .hero-background {
-  background-image: url('/assets/Dashboard.jpg'); /* Replace with actual background */
+  background-size: cover;
+  background-position: center;
 }
